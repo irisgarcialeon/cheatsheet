@@ -1,0 +1,56 @@
+html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+  </head>
+  <body>
+    <h1>CSS selectors and specifity</h1>
+    <h2>CSS Selectors</h2>
+    <table>
+      <thead>
+        <tr>
+          <td>Selector</td>
+          <td>Description</td>
+          <td>Example</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Type selector</td>
+          <td>It selects all elements of the given type within a document.</td>
+          <td>p</td>
+        </tr>
+        <tr>
+         <td>Universal selector</td>
+         <td>Selects all elements of any type.</td>
+         <td>*</td>
+        </tr>
+        <tr>
+          <td>Class selector</td>
+          <td>Most common ways to select an element.</td>
+          <td>HTML: class="brand", CSS: .brand</td>
+        </tr>
+        <tr>
+          <td>Multiple clases</td>
+          <td>It's possible to add more than one class name to an HTML element</td>
+          <td> CSS: .green{color:green} .bold{ font-weight}, HTML: h1 class="green bold"</td>
+        </tr>
+        <tr>
+          <td>ID</td>
+          <td>If an HTML needs to be styled uniquely, we can give it an ID using the ID attribute.</td>
+          <td>We prepend the id with (#)</td>
+        </tr>
+        <tr>
+          <td>Attribute</td>
+          <td>It can be used to target HTML elements that already contains attributes.</td>
+          <td>[href]{color:magenta}, would target all elements with an href attr.</td>
+        </tr>
+        <tr>
+          <td>Pseudo-class</td>
+          <td>Is a keyword added to a selector that specifies a special state of the selected element(s).</td>
+          <td> :hover can be used to change a button's color when the user's pointer hovers over it. button:hover {
+                color: blue;}</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
